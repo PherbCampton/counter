@@ -1,10 +1,11 @@
 body {
-  background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-  overflow: hidden;
+  padding: 0 10px;
   width: 100%;
+  height: 100%;
+  background: #a1d3b0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
@@ -44,11 +45,16 @@ button {
   font-size: 40px;
   cursor: pointer;
   background: none;
+  font-family: "Black Ops One", cursive;
 }
 
 button:hover {
   opacity: 0.7;
   color: #1a1110;
+}
+
+#fill {
+  font-size: 35px;
 }
 
 .count {
