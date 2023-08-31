@@ -1,5 +1,3 @@
-import "./style.css";
-
 const circle = document.querySelector(".circle");
 const countEl = document.querySelector(".count");
 const increaseButton = document.getElementById("increase");
@@ -30,9 +28,7 @@ function decrementToZero() {
     circle.style.setProperty("--background", "#dc143c");
     updateCircleBorder();
     setTimeout(decrementToZero, 25);
-    fillButton.disabled = true;
   }
-  fillButton.disabled = false;
 }
 
 function incrementToMax() {
